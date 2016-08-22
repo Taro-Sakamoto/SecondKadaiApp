@@ -12,6 +12,7 @@
 		5015FE731D69B901007B91DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5015FE711D69B901007B91DA /* Main.storyboard */; };
 		5015FE751D69B901007B91DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5015FE741D69B901007B91DA /* Assets.xcassets */; };
 		5015FE781D69B901007B91DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5015FE761D69B901007B91DA /* LaunchScreen.storyboard */; };
+		5015FE801D69BA91007B91DA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015FE7F1D69BA91007B91DA /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5015FE741D69B901007B91DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5015FE771D69B901007B91DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5015FE791D69B901007B91DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5015FE7F1D69BA91007B91DA /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				5015FE6D1D69B901007B91DA /* AppDelegate.swift */,
-				5015FE6F1D69B901007B91DA /* ViewController.swift */,
 				5015FE711D69B901007B91DA /* Main.storyboard */,
+				5015FE6F1D69B901007B91DA /* ViewController.swift */,
+				5015FE7F1D69BA91007B91DA /* ResultViewController.swift */,
 				5015FE741D69B901007B91DA /* Assets.xcassets */,
 				5015FE761D69B901007B91DA /* LaunchScreen.storyboard */,
 				5015FE791D69B901007B91DA /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				5015FE701D69B901007B91DA /* ViewController.swift in Sources */,
 				5015FE6E1D69B901007B91DA /* AppDelegate.swift in Sources */,
+				5015FE801D69BA91007B91DA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
